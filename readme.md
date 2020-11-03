@@ -79,6 +79,9 @@ $ git clone https://github.com/haryelramalho/gorestaurant.git && cd gorestaurant
 # Install the dependencies
 $ yarn
 
+#Run static API for the best app experience
+yarn json-server server.json -p 3333
+
 # Start the client
 $ yarn start
 ```
